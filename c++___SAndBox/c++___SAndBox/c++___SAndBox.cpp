@@ -2,10 +2,18 @@
 //
 
 #include <iostream>
+#include <stdio.h>
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+	int A[10] = {2,4,6,8,10,12,14};
+	
+	cout << sizeof(A) << endl;
+	cout << A[1] << endl;
+
+	return 0;
+
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
